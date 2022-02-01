@@ -1,0 +1,39 @@
+extends main.pug
+block style
+    style 
+        include ../static/style.css
+block scripts
+    script 
+        include ../static/script.js
+block content
+    section#main_sec
+        img(src="../static/CS.png")#headimg 
+        h1#lines Hi, Welcome To Dugu Learn, Placement Oriented Program for Tech Geeks
+        
+    section#course 
+        img(src="../static/mern.jpg").course_img
+        div.det
+            h2.head_c MERN Stack Developer
+            ul.detils
+                li Duration: 25 Week 
+                li Learning: Html, CSS, JavaScript, ReactJS, Node.js, Express.js, MongoDB 
+                li  Project Based Learning, Placement Support
+                button.enroll Enroll
+        img(src="../static/node.png").course_img
+        div.det
+            h2.head_c Backend Developer
+            ul.detils
+                li Duration: 15 Week 
+                li Learning: Python, Django, JavaScript, Node.js, Express.js, MongoDB, MySQL
+                li  Project Based Learning, Placement Support
+                button.enroll Enroll
+
+    section#recruter
+        h1.Recruters Top Tech Gaint Recruting Full-Stack Developers
+        div#rec
+            img(src="../static/google.png")
+            img(src="../static/ibm-.png")
+            img(src="../static/jp-morgan.png")
+            img(src="../static/microsoft.png")
+            img(src="../static/capgemini.png")
+            img(src="../static/amazon.png")

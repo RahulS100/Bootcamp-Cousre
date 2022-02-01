@@ -1,0 +1,18 @@
+extends main.pug
+block style
+        style 
+            include ../static/style.css
+            include ../static/contect.css
+block scripts
+        scripts
+            script 
+                include ../static/script.js
+block content
+    div#contect
+        h5.enquery Enquary Form
+        form(method="post", action = "/contectus")#form
+            input(name = "name" type= "text" placeholder ="Name").fields
+            input(name = "email" type= "email" placeholder ="Email").fields
+            input(name = "phone" type= "text" placeholder ="Phone").fields
+            input(name = "massage" type= "text" placeholder ="Massage").fields
+            button(id="submit", type="submit") Submit

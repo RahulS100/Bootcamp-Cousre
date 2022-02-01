@@ -1,0 +1,198 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&family=Roboto&display=swap');
+*{
+    --font_f : 'Roboto', sans-serif;
+    font-size: 15px;
+    margin: 0px;
+    padding: 0px;
+}
+#header {
+    display: flex;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.589);
+}
+#header img {
+height: 80px;
+width: 280px;
+align-self: center;
+margin-left: 10px;
+}
+/* header section */
+#lists {
+   margin-left: 140px;
+    align-self: center;
+    display: flex;
+    list-style: none;
+}
+
+#lists li {
+    padding: 30px;    
+}
+
+#lists li a {
+    text-decoration: none;
+    font-family: var(--font_f);
+    font-size: 1rem;
+    color: #473f3e;
+}
+#lists li a:hover {
+color: skyblue;
+border-bottom: 1px solid skyblue;
+}
+#logbtn {
+    position: absolute;
+    right: 15px;
+    align-self: center;
+    background-color: skyblue;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 80px;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+}
+#logbtn:hover {
+    text-shadow: 0px 0px 8px white, 0px 0px 8px white;
+}
+
+/* main heading and background */
+#main_sec {
+    width: 100%;
+    height: 350px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+}
+#headimg {
+    height: 200px;
+    width: 300px;
+    align-self: center;
+}
+
+#lines {
+align-self: center;
+font-size: 1.8rem;
+width: 400px;
+margin-left: 100px;
+font-family: var(--font_f);
+}
+
+/* course section */
+#course {
+    width: 100%;
+    height: 220px;
+    border-radius: 10px;
+    display: flex;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.589);
+    border-top: 1px solid rgba(128, 128, 128, 0.589);
+}
+.det {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.course_img {
+    width: 280px;
+    height: 150px;
+    align-self: center;
+    margin-left: 15px;
+    border-radius: 10px;
+    border: 2px solid rgb(228, 228, 228);
+}
+.detils {
+ list-style-type: none;   
+ font-family: var(--font_f);
+}
+.enroll{
+    margin-top: 10px;
+    align-self: center;
+    background-color: skyblue;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+}
+.head_c {
+    font-family: var(--font_f);
+    font-size: 1.5rem;
+}
+
+/* Recruter section */
+#recruter {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+}
+.Recruters {
+align-self: center;
+font-size: 2rem;
+margin-top: 120px;
+font-family: var(--font_f);
+text-decoration: underline;
+}
+#rec {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+#rec img {
+    width: 140px;
+    height: 50px;
+}
+
+/* footer deatils section */
+#footer_de {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(128, 128, 128, 0.589);
+    border-radius: 10px;
+    justify-content: center;
+}
+.de1 {
+    list-style: none;
+}
+.de1 li {
+    color: #363836;
+   margin-top: 20px;
+   font-size: 1.2rem;
+   font-family: var(--font_f);
+   cursor: pointer;
+   text-align: center;
+}
+
+.de1 li:hover {
+    color: white;
+}
+
+.de_1 {
+border-right: 2px solid rgba(128, 128, 128, 0.589);
+display: flex;
+justify-content: center;
+width: 100%;
+align-self: center;    
+}
+.de_2 {
+display: flex;
+justify-content: center;
+width: 100%;
+align-self: center;    
+}
+
+/* footer work */
+#foot {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+.footer_de {
+align-self: center;
+font-family: var(--font_f);
+font-size: 1.2rem;
+color: grey;
+}
